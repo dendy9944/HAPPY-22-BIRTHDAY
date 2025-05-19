@@ -119,7 +119,3 @@ function endlessConfetti() {
     });
   }, 1000);
 }
-window.addEventListener('resize', () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-});
